@@ -15,9 +15,9 @@
 
 # Example of the parameterized constructor :
 # class Addition:
-#     first = 0
-#     second = 0
-#     answer = 0
+#     # first = 0
+#     # second = 0
+#     # answer = 0
 #
 #     def __init__(self,first,second):
 #         self.first = first
@@ -65,14 +65,14 @@
 #******************************************************
 
 ### Destructor ###
-# class Emp:
-#     def __init__(self):
-#         print('employee created...')
-#
-#     def __del__(self):
-#         print('Destructor called, employee deleted')
-# obj_d = Emp()
-# del obj_d
+class Emp:
+    def __init__(self):
+        print('employee created...')
+
+    def __del__(self):
+        print('Destructor called, employee deleted')
+obj_d = Emp()
+del obj_d
 
 class Employee:
     # Initializing
@@ -91,4 +91,7 @@ def create_obj():
 print('calling create obj() function...')
 obj = create_obj()
 print('program end...')
+
+""" Above Example: This example gives the explanation of above-mentioned note. 
+Here, notice that the destructor is called after the ‘Program End…’ printed."""
 

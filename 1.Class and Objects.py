@@ -27,7 +27,7 @@
 # 	def __init__(self,model,color):
 # 		self.model = model
 # 		self.color = color
-
+#
 # 	def show(self):
 # 		print('*' * 50)
 # 		print('the model is:- ',self.model)
@@ -107,18 +107,18 @@
 # Xylo.show()
 #*********************************************
 
-class Dog:
-	animal = 'dog'
-
-	def __init__(self,breed):
-		self.breed = breed
-
-	def setColor(self,color):
-		self.color = color
-	def getColor(self):
-		return self.color
-
-obj = Dog('pug')
-obj.setColor('White')
-col = obj.getColor()
-print(col)
+# class Dog:
+# 	animal = 'dog'
+#
+# 	def __init__(self,breed):
+# 		self.breed = breed
+#
+# 	def setColor(self,color):
+# 		self.color = color
+# 	def getColor(self):
+# 		return self.color
+#
+# obj = Dog('pug')
+# obj.setColor('White')
+# col = obj.getColor()
+# print(col)
