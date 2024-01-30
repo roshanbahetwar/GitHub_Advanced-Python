@@ -1,4 +1,4 @@
-# class 55
+# class 55 to 57
 # my_dict = {"name":"Roshan","age":25,"gender":"Male",}
 # k = input('enter a key: ')
 # result = my_dict.get(k)
@@ -13,8 +13,8 @@ ask a subject name and marks from user and add to dict
 """
 # my_dict = {}
 # while True:
-#     subjects = input('enter a subject ')
-#     marks = int(input('enter subjects marks '))
+#     subjects = input('enter a subject name: ')
+#     marks = int(input('enter subjects marks out of 100: '))
 #     my_dict[subjects] = marks
 #
 #     choice = input("Do you want to add more, [yes/no]: \n")
@@ -220,24 +220,24 @@ ask a string from user and print the each char with occurance
 #     print(f"{name} got total {total} marks")
 #***************************************************
 # method-2,by using sum
-students_data = {
-    'Roshan':{
-        'roll_no':11,
-        'gender':'Male',
-        'marks':[75,74,69,81]
-    },
-    'Mohan':{
-        'roll_no':12,
-        'gender':'Male',
-        'marks':[65,68,75,79],
-    },
-    'Ashs':{
-        'roll_no':13,
-        'gender':'Female',
-        'marks':[85,75,85,65],
-    }
-}
-
-for name,details in students_data.items():
-    total = sum(details['marks'])
-    print(f"{name} got total {total} marks")
+# students_data = {
+#     'Roshan':{
+#         'roll_no':11,
+#         'gender':'Male',
+#         'marks':[75,74,69,81]
+#     },
+#     'Mohan':{
+#         'roll_no':12,
+#         'gender':'Male',
+#         'marks':[65,68,75,79],
+#     },
+#     'Ashs':{
+#         'roll_no':13,
+#         'gender':'Female',
+#         'marks':[85,75,85,65],
+#     }
+# }
+#
+# for name,details in students_data.items():
+#     total = sum(details['marks'])
+#     print(f"{name} got total {total} marks")
