@@ -2,7 +2,7 @@
 # class Employee:
 #     def __init__(self):
 #         self.id = 'TM210'
-#         self.name = 'Roshan'
+#         self.name = 'abc'
 #         self.city = 'Pune'
 #
 #     def show(self):
@@ -59,7 +59,7 @@
 # obj = MyClass()
 # obj.method()
 # print('*'*20)
-# obj2 = MyClass('Roshan')
+# obj2 = MyClass('abc')
 # obj2.method()
 # print('*'*25)
 #******************************************************
