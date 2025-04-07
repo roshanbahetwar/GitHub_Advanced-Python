@@ -48,7 +48,7 @@
 # 	def show(self):
 # 		print('My name is '+ self.name +' '+  'and i am work in '+ self.company)
 #
-# obj = ABC('Roshan','TechMahindra')
+# obj = ABC('izack','TechMahindra')
 # obj.show()
 #************************************************
 #  Sample class with init method
@@ -59,7 +59,7 @@
 # 	def show(self):
 # 		print('My name is:- ',self.name)
 #
-# obj = Person('Roshan')
+# obj = Person('izack')
 # obj.show()
 #*************************************************************
 # class Person:
@@ -70,10 +70,10 @@
 # 	def __str__(self):
 # 		return f'My Name is {self.name} and i work in {self.company}'
 #
-# obj = Person('Roshan','TechMahindra')
+# obj = Person('izack','TechMahindra')
 # print(obj)
 #
-# obj = Person('Ajay','IndianRalway')
+# obj = Person('abc','IndianRalway')
 # print(obj)
 #*************************************************************
 
